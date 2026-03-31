@@ -1,4 +1,4 @@
-# 🤖 Projet : Formation Openclassrooms (324h)
+# 🤖 Projet : Formation Openclassrooms
 
 ## 📝 Présentation du Projet
 Ce dépôt centralise l'ensemble de ma formation technique.
@@ -13,7 +13,7 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 
 ---
 
-## 🗂️ Structure du Programme (318h)
+## 🗂️ Structure du Programme (324h)
 
 | Ordre | Module | Durée | Statut |
 | :--- | :--- | :---: | :--- |
