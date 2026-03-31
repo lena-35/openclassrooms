@@ -1,4 +1,4 @@
-# 🤖 Projet : Formation Openclassrooms (318h)
+# 🤖 Projet : Formation Openclassrooms
 
 ## 📝 Présentation du Projet
 Ce dépôt centralise l'ensemble de ma formation technique.
@@ -13,12 +13,12 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 
 ---
 
-## 🗂️ Structure du Programme (318h)
+## 🗂️ Structure du Programme (324h)
 
 | Ordre | Module | Durée | Statut |
 | :--- | :--- | :---: | :--- |
 | 01 | [Gestion de Projet](./01_Gestion_Projet/) | 38h | ⏳ À venir |
-| 02 | [Algorithmes & Qualité code](./02_Algorithmes_Qualite/) | 10h | ⏳ À venir |
+| 02 | [Algorithmes & Qualité code](./02_Algorithmes_Qualite/) | 16h | ⏳ À venir |
 | 03 | [Programmation C / C++](./03_Prog/) | 46h | ⏳ À venir |
 | 04 | [Langages Python / C#](./04_Langage/) | 26h | ⏳ À venir |
 | 05 | [Qualité du Code Python](./05_Qualite_Code_Python/) | 4h | ⏳ À venir |
@@ -34,6 +34,8 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 ---
 
 ## 🛠️ Stack Technique & Outils
+* **Gestion de projet :** Cahier des charges fonctionnel, Méthode Agile
+* **Qualité :** Algorithmes, Tests, Maintenabilité
 * **Langages :** C, C++, Python, C#, SQL, HTML/CSS
 * **IA :** RAG (Retrieval Augmented Generation), LangChain, Jupyter Notebooks
 * **Infrastructure :** Linux, Docker, GitHub Actions
