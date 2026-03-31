@@ -1,0 +1,37 @@
+# --- Gestion & Docs ---
+# On ignore les fichiers temporaires de traitement de texte
+01_Gestion/*.tmp
+01_Gestion/*.bak
+
+# --- Programmation C / C++ (Dossier 03) ---
+# On ne garde que le code (.c, .cpp, .h), on ignore les exécutables lourds
+03_Prog/*.exe
+03_Prog/*.out
+03_Prog/*.app
+03_Prog/*.o
+03_Prog/*.obj
+
+# --- Python & IA (Dossiers 04, 05, 06) ---
+# On ignore les dossiers de cache générés automatiquement par Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.env
+
+# --- Web & Data (Dossier 08) ---
+# Si tu utilises des outils de package plus tard
+node_modules/
+.sass-cache/
+
+# --- DevOps & IDE (Dossier 10) ---
+# On ignore les réglages locaux de ton VS Code (Codespaces)
+.vscode/
+.history/
+.docker/
+
+# --- Système & Divers ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
