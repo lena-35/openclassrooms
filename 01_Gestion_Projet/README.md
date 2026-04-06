@@ -17,9 +17,10 @@ Ce module est dédié à la mise en place de la méthodologie de travail, à l'a
 Afin de segmenter le travail, le dossier est organisé comme suit :
 
 * **/01_Cahier_des_Charges/** : Documents relatifs aux spécifications fonctionnelles (8h).
-* **/02_Initiation_Gestion/** : Notes et ressources sur les bases de la gestion de projet (4h).
-* **/03_Benchmark/** : Analyse comparative des solutions digitales et outils data (20h).
-* **/04_Agile/** : Mise en place du backlog et des rituels agiles (6h).
+* **/02_Specs_Techniques/** : Documents relatifs aux spécifications techniques (4h).
+* **/03_Initiation_Gestion/** : Notes et ressources sur les bases de la gestion de projet (4h).
+* **/04_Benchmark/** : Analyse comparative des solutions digitales et outils data (20h).
+* **/05_Gestion_Projet_Agile/** : Mise en place du backlog et des rituels agiles (6h).
 
 ## 🛠️ Méthodologie du Module
 
