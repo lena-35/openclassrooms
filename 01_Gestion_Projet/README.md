@@ -10,7 +10,7 @@ Ce module est dédié à la mise en place de la méthodologie de travail, à l'a
 | 02 | [Spécifications techniques](./02_Specs_Techniques/) | 4h | ⏳ À venir |
 | 03 | [Initiez-vous à la gestion de projet](./03_Initiation_Gestion_Projet/) | 4h | ⏳ À venir |
 | 04 | [Réalisez un benchmark digital](./04_Benchmark/) | 20h | ⏳ À venir |
-| 05 | [Gestion de projet agile](./05_Agile/) | 6h | ⏳ À venir |
+| 05 | [Gestion de projet agile](./05_Gestion_Projet_Agile/) | 6h | ⏳ À venir |
 
 ## 🏗️ Structure des Livrables
 
