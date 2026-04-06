@@ -13,11 +13,11 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 
 ---
 
-## 🗂️ Structure du Programme (324h)
+## 🗂️ Structure du Programme (328h)
 
 | Ordre | Module | Durée | Statut |
 | :--- | :--- | :---: | :--- |
-| 01 | [Gestion de Projet](./01_Gestion_Projet/) | 38h | ⏳ À venir |
+| 01 | [Gestion de Projet](./01_Gestion_Projet/) | 42h | ⏳ À venir |
 | 02 | [Algorithmes & Qualité code](./02_Algorithmes_Qualite/) | 16h | ⏳ À venir |
 | 03 | [Programmation C / C++](./03_Prog/) | 46h | ⏳ À venir |
 | 04 | [Langages Python / C#](./04_Langage/) | 26h | ⏳ À venir |
@@ -34,7 +34,7 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 ---
 
 ## 🛠️ Stack Technique & Outils
-* **Gestion de projet :** Cahier des charges fonctionnel, Méthode Agile
+* **Gestion de projet :** Cahier des charges fonctionnel, Spécifications techniques, Méthode Agile
 * **Qualité :** Algorithmes, Tests, Maintenabilité
 * **Langages :** C, C++, Python, C#, SQL, HTML/CSS
 * **IA :** RAG (Retrieval Augmented Generation), LangChain, Jupyter Notebooks
