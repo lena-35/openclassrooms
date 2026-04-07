@@ -25,11 +25,12 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 | 06 | [Intelligence Artificielle](./06_IA/) | 40h | ⏳ À venir |
 | 07 | [Design UX/UI](./07_Design/) | 10h | ⏳ À venir |
 | 08 | [Web & Bases de données](./08_Web_Data/) | 47h | ⏳ À venir |
-| 09 | [Infrastructure & Réseau](./09_Infra/) | 18h | ⏳ À venir |
-| 10 | [DevOps (Docker)](./10_DevOps/) | 20h | ⏳ À venir |
-| 11 | [Cybersécurité](./11_Cyber/) | 20h | ⏳ À venir |
-| 12 | [Industrie (BIM/AutoCAD)](./12_Indus/) | 21h | ⏳ À venir |
-| 13 | [Bureautique (Excel)](./13_Bureautique/) | 18h | ⏳ À venir |
+| 09 | [Automatisme](./09_Automatisme/) | xxh | ⏳ À venir |
+| 10 | [Infrastructure & Réseau](./10_Infra/) | 18h | ⏳ À venir |
+| 11 | [DevOps (Docker)](./11_DevOps/) | 20h | ⏳ À venir |
+| 12 | [Cybersécurité](./12_Cyber/) | 20h | ⏳ À venir |
+| 13 | [Industrie (BIM/AutoCAD)](./13_Indus/) | 21h | ⏳ À venir |
+| 14 | [Bureautique (Excel)](./14_Bureautique/) | 18h | ⏳ À venir |
 
 ---
 
@@ -38,6 +39,7 @@ L'objectif est de maîtriser et d'allier la programmation bas niveau, l'intellig
 * **Qualité :** Algorithmes, Tests, Maintenabilité
 * **Langages :** C, C++, Python, C#, SQL, HTML/CSS
 * **IA :** RAG (Retrieval Augmented Generation), LangChain, Jupyter Notebooks
+* **Automatisme :** Ladder, Grafcet
 * **Infrastructure :** Linux, Docker, GitHub Actions
 * **Environnement :** GitHub Codespaces (Browser-based)
 * **Design :** Figma, AutoCAD
