@@ -8,7 +8,7 @@
 
 ---
 
-## 🧭 Partie 1 : Découvrez le rôle de la documentation projet
+## 🧭 Partie 1 : Découvrir le rôle de la documentation projet
 *Notes sur l'importance de documenter pour un Data Architect.*
 
 ### 1.1 Documenter pour mieux communiquer
@@ -30,11 +30,11 @@
 	- Amener le lecteur directement au but.
 
 ### 1.2 Communiquer efficacement les idées grâce à la documentation
-- Déterminez quand vous avez besoin de documentation :
+- Déterminer quand il y a besoin de documentation :
 	- A-t-on besoin de la documentation tout de suite ?
 	- Documentation juste à temps : ne pas planifier entièrement les processus futurs.
 
-- Écrivez dans un état d'esprit agile :
+- Écrire dans un état d'esprit agile :
 	- Rédiger la documentation en fonction des besoins.
 	- Rédiger uniquement la documentation qui s’applique au sprint en cours.
 	
@@ -43,9 +43,9 @@
 - Déterminer le coût en temps :
 	- Documenter juste ce dont les parties prenantes ont besoin, ni plus ni moins.
 
-- Déterminez le quand de votre documentation :
+- Déterminer le quand de la documentation :
 	1.  Avant le début du projet :
-		- Quelques diagrammes d'architecture de haut niveau pour identifier les principaux composants de la solution que vous allez implémenter.
+		- Quelques diagrammes d'architecture de haut niveau pour identifier les principaux composants de la solution qui va être implémentée.
 		- Une description des caractéristiques essentielles du produit proposé.
 		- La liste des exigences principales – elles peuvent être de haut niveau ou détaillées, selon la qualité de la définition du projet à ce stade.
 	2.  Pendant le projet :
@@ -56,12 +56,12 @@
 		- Manuel utilisateur.
 		- Manuel maintenance.
 
-- Déterminez le où de votre documentation :
+- Déterminer le où de la documentation :
 	- Eviter Word ! Il faut un document vivant et non static.
 	- Google Docs.
 	- Wiki GitHub.
 
-- Déterminez le quoi de votre documentation: les 7 règles :
+- Déterminer le quoi de la documentation: les 7 règles :
 	1. Divertir le lecteur pour ne pas qu'il s'ennuie :
 		- Si je ne me soucie pas de ce que j'écris, le lecteur ne se souciera pas de le lire.
 	2. Avant de commencer, être clair sur ce que l'on veut que le lecteur fasse une fois qu'il aura terminé :
@@ -108,13 +108,13 @@
 
 - L'objectif premier de toute documentation est la communication.
 
- - N’écrivez que la documentation nécessaire à votre projet, ni plus, ni moins.
+ - N’écrire que la documentation nécessaire au projet, ni plus, ni moins.
 
 - Les documents agiles sont des documents vivants, c'est-à-dire qu'ils sont constamment mis à jour au fur et à mesure qu'ils évoluent avec le projet. Pour cela, GitHub est un bon point de départ.
 
  - Une documentation efficace apporte de la valeur au lecteur lorsqu'elle :
 	- N'ennuie pas le lecteur,
-	- Est claire sur ce que vous voulez que votre lecteur fasse après la lecture,
+	- Est claire sur ce que l'on veut que le lecteur fasse après la lecture,
 	- Evite les mots ambigus,
 	- Utilise des illustrations couplées à des exemples pour plus de clarté,
 	- Est facile à réviser ;
@@ -128,7 +128,7 @@
 
 ---
 
-## 🛠️ Partie 2 : Préparez un cahier des charges fonctionnel
+## 🛠️ Partie 2 : Préparer un cahier des charges fonctionnel
 *Notes sur la phase de conception et de recueil.*
 
 ### 2.1 Contenu type d'un CDCF
@@ -140,7 +140,7 @@
 	- A démontrer l’intérêt du travail effectué auprès du client.
 
 	- Se poser les questions suivantes :
-		1. Comment vous et votre client allez gérer le projet ? (Direction du projet)
+		1. Comment nous et le client allons gérer le projet ? (Direction du projet)
 		2. En ce qui concerne le projet, où en sommes-nous maintenant ?
 		3. Où voulons-nous arriver ?
 		4. Qu’allons-nous faire pour y parvenir ?
@@ -158,22 +158,22 @@
 			- Nom de l'entreprise (client)
 			- Marque ou variante (le cas échéant)
 			- Coordonnées du client (inclure tous les noms/titres et coordonnées)
-			- Nom et coordonnées de votre agence 
+			- Nom et coordonnées de l'agence 
 
 		OÙ EN SOMMES-NOUS MAINTENANT ?
-			- Décrivez la situation actuelle, tout contexte nécessaire et les principaux problèmes auxquels le client est confronté et qui ont motivé le lancement de ce projet. 
+			- Décrire la situation actuelle, tout contexte nécessaire et les principaux problèmes auxquels le client est confronté et qui ont motivé le lancement de ce projet. 
 
 		OÙ VOULONS-NOUS ARRIVER?
-			- Décrivez le(s) objectif(s) du client pour le projet. 
+			- Décrire le(s) objectif(s) du client pour le projet. 
 
 		QU’ALLONS-NOUS FAIRE POUR Y PARVENIR ?
-			- De nombreux projets ont des composantes multiples et plusieurs équipes y travaillent. Si vous concevez une architecture système, il se peut qu'une équipe de conception d'UX soit également impliquée. C'est ici que vous documentez les détails supplémentaires qui sont pertinents à votre succès sur le projet.
+			- De nombreux projets ont des composantes multiples et plusieurs équipes y travaillent. Si l'on conçoit une architecture système, il se peut qu'une équipe de conception d'UX soit également impliquée. C'est ici que l'on documente les détails supplémentaires qui sont pertinents au succès sur le projet.
 
 		À QUI DEVONS-NOUS NOUS ADRESSER ?
-			- Chaque projet a un public cible. Il s'agit des personnes directement concernées par le projet, dont la vie et/ou les emplois peuvent être directement affectés. Il est souvent important d'obtenir des réponses de ce groupe, tant avant la conception du projet qu'après son achèvement. Définissez ici les différents publics et classez-les par ordre de priorité en fonction de leurs besoins en termes de contacts.
+			- Chaque projet a un public cible. Il s'agit des personnes directement concernées par le projet, dont la vie et/ou les emplois peuvent être directement affectés. Il est souvent important d'obtenir des réponses de ce groupe, tant avant la conception du projet qu'après son achèvement. Définir ici les différents publics et les classer par ordre de priorité en fonction de leurs besoins en termes de contacts.
 
 		COMMENT SAURONS-NOUS SI LE PROJET EST RÉUSSI ?
-			- Vous et votre client devez établir à quoi ressemblera le succès. Pour ce faire, vous devrez répondre aux questions suivantes pour chacun des objectifs : 
+			- Nous et le client devons établir à quoi ressemblera le succès. Pour ce faire, on doit répondre aux questions suivantes pour chacun des objectifs : 
 			- Comment le succès sera-t-il mesuré ? 
 			- Quand sera-t-il mesuré ? 
 			- Qui le mesurera ? 
@@ -185,17 +185,17 @@
 			- Dates d'inscription ou dates limites pour les activités internes/externes associées.
 			- Intégration avec d'autres activités de développement ou de marketing (par exemple, le client planifie-t-il une campagne de marketing pour le déploiement de ce projet et cette campagne a-t-elle une date précise à laquelle le projet doit être prêt ?).
 			- Dépendances et contraintes (ou faire référence à un document spécifique si trop long)
-			- Autres considérations. C'est souvent un lieu réservé à la documentation des contraintes. Chaque client et chaque projet aura des aspects pratiques différents que vous devrez passer au crible avant de pouvoir commencer le projet. 
+			- Autres considérations. C'est souvent un lieu réservé à la documentation des contraintes. Chaque client et chaque projet aura des aspects pratiques différents que l'on devra passer au crible avant de pouvoir commencer le projet. 
 
 		APPROBATIONS
-			- C'est la dernière partie du cahier des charges . Déterminez qui a le pouvoir d'approuver ou de vérifier le travail que vous produisez. Il devrait s'agir de la ou des mêmes personnes qui approuvent le cahier des charges avant le début des travaux du projet.
+			- C'est la dernière partie du cahier des charges . Déterminer qui a le pouvoir d'approuver ou de vérifier le travail que l'on produit. Il devrait s'agir de la ou des mêmes personnes qui approuvent le cahier des charges avant le début des travaux du projet.
 
 - Les sujets importants pour rédiger un CDCF:
-	- Le cahier des charges fonctionnel est l'élément d'information le plus important sur lequel vous et votre client vous entendrez ;
+	- Le cahier des charges fonctionnel est l'élément d'information le plus important sur lequel nous et le client nous entendrons ;
 	- Un cahier des charges doit être bref (1 ou 2 pages). Il est conçu dans un but précis, ni plus ni moins. ;
 	- Un cahier des charges efficace énonce des objectifs clairs ;
 	- Les objectifs d'un cahier des charges définissent les critères de réussite du projet ;
-	- Un cahier des charges fonctionnel peut presque s'écrire tout seul lorsque vous posez les bonnes questions.
+	- Un cahier des charges fonctionnel peut presque s'écrire tout seul lorsque l'on pose les bonnes questions.
 
 
 ### 2.2 Recueillir les besoins du client
@@ -211,14 +211,13 @@
 	- Les personnes qui utilisent quotidiennement sont les plus susceptibles de donner un véritable aperçu du problème et de ses effets, permettant ainsi de définir plus clairement des besoins concrets.
 
 - Observer en temps réel :
-	- Observer des personnes interagissant avec le système actuel peut vous fournir une mine de renseignements sur les points problématiques.
-	- 
-	
+	- Observer des personnes interagissant avec le système actuel peut nous fournir une mine de renseignements sur les points problématiques.
+
 - Comparer observations avec cahier des charges client et les entretiens.
 	- Informations sur le problème et les remèdes souhaités = rédiger des objectifs (besoins) clairs et précis.
 
-- Réalisez un cahier des charges fonctionnel :
-	- Posez les bonnes questions :
+- Réaliser un cahier des charges fonctionnel :
+	- Poser les bonnes questions :
 		1. "**Où en sommes-nous maintenant?**" fournit une description et le contexte du problème à résoudre.
 		2. "**Où voulons-nous arriver?**" constitue la base des objectifs du projet.
 	- Si les objectifs ne sont pas aussi clairs qu'ils devraient l'être, approfondir les questions pour obtenir de la clarté :
@@ -227,7 +226,7 @@
 		- Comment la réalisation de cet objectif sera-t-elle mesurée ?
 		- Pour quel niveau d'amélioration le retour sur investissement est-il optimal ?
 
-- Catégorisez les besoins :
+- Catégoriser les besoins :
 	- Les **besoins fonctionnels** sont ceux qui précisent ce que le système doit faire, comme une fonction, un comportement ou une action qu'il doit exécuter :
 		- Fonctions administratives ;
 		- Authentification ;
@@ -311,7 +310,7 @@
 	
 	
 ### 2.3 Identifier les contraintes et risques du projet
-- Les **contraintes** et les **risques**, comme les **dépendances**, affectent la façon de planifier les phases de votre projet. Les contraintes **limitent** ou **restreignent** vos options et doivent être exprimées avec **clarté**.
+- Les **contraintes** et les **risques**, comme les **dépendances**, affectent la façon de planifier les phases du projet. Les contraintes **limitent** ou **restreignent** les options et doivent être exprimées avec **clarté**.
 
 - Au fur et à mesure de l'élaboration du cahier des charges fonctionnel, il est impératif de documenter les contraintes d'une manière aussi claire et concise que pour les besoins.
 
@@ -325,9 +324,9 @@
 	- Contraintes techniques (Formats de données, APIs),
 	- Contraintes de budget.
 
-- Documentez et gérez les contraintes/risques :
+- Documenter et gérer les contraintes/risques :
 	- Étape 1 : Créer un **registre de toutes les dépendances** du projet
-		- Une dépendance est une contrainte qui impose qu’un élément du projet soit terminé avant qu'un autre puisse être commencé. Évaluer les besoins du projet et documenter toutes les dépendances qui ont un impact sur celui-ci. Créer un registre des dépendances/contraintes (ou utiliser un modèle). Ce registre deviendra une ressource importante, non seulement pour la rédaction du cahier des charges, mais aussi pour votre interaction continue avec le projet et la documentation subséquente.
+		- Une dépendance est une contrainte qui impose qu’un élément du projet soit terminé avant qu'un autre puisse être commencé. Évaluer les besoins du projet et documenter toutes les dépendances qui ont un impact sur celui-ci. Créer un registre des dépendances/contraintes (ou utiliser un modèle). Ce registre deviendra une ressource importante, non seulement pour la rédaction du cahier des charges, mais aussi pour l'interaction continue avec le projet et la documentation subséquente.
 	- Étape 2 : Créer un **registre de toutes les contraintes** de projet
 		- Évaluer le projet, faire un brainstorming avec les parties prenantes et documenter toutes les contraintes qui ont un impact sur le projet. Utiliser le registre des dépendances/contraintes pour cataloguer ces contraintes. Si beaucoup de contraintes à documenter, créer deux registres distincts.
 	- Étape 3 : Créer un **registre de tous les risques** de projet
@@ -338,10 +337,10 @@
 		- Trouver un moyen de surveiller et d'évaluer les dépendances et les contraintes au fur et à mesure que le projet évolue et s'achève, afin que tout impact sur la réussite du projet puisse être rapidement identifié et traité.
 
 - L'importance des contraintes :
-	- Les contraintes limitent ou restreignent vos options.
+	- Les contraintes limitent ou restreignent les options.
 	- Les types de contraintes les plus courants sont ceux qui limitent le temps, les ressources ou le budget.
 	- Les contraintes, comme les besoins, doivent être clairement documentés, sinon elles laissent des trous béants dans le projet et peuvent mener à un échec catastrophique de livraison.
-	- Une documentation efficace des contraintes vous aide à concevoir une stratégie pour gérer et travailler dans le respect de ces contraintes tout au long du cycle de vie du projet.
+	- Une documentation efficace des contraintes nous aide à concevoir une stratégie pour gérer et travailler dans le respect de ces contraintes tout au long du cycle de vie du projet.
 
 
 
@@ -422,7 +421,7 @@
 		- *Comment traiter les personnes d'influence qui ne sont pas considérées comme des intervenants, mais qui se considèrent comme importantes pour le projet ?*
 			- Ce sont des personnes qui devraient rester à distance lorsqu'il s'agit du projet. Elles peuvent souvent soulever des préoccupations inutiles et créer des obstacles au développement. Bien qu'il soit peut-être nécessaire de les tenir au courant du projet, leur participation n'est pas nécessaire.
 		- *Qu'est-ce qui motive et intéresse chaque intervenant par rapport au projet ?*
-			- Pour répondre à cette question, vous devrez répondre à quelques autres et faire quelques recherches pour obtenir vos réponses :
+			- Pour répondre à cette question, on devra répondre à quelques autres et faire quelques recherches pour obtenir les réponses :
 				- Qui a un intérêt financier dans le projet ?
 				- Qui a un intérêt ou un enjeu affectif ? 
 				- Qui sont les principaux soutiens du projet ?
@@ -430,8 +429,8 @@
 
 - Créer un PGI :
 	- Un bon PGI peut être quelque chose d'aussi simple qu'une feuille de calcul qui énumère les intervenants et leurs principaux intérêts. Il comprendra certains points de repère clés pour lesquels l'intervenant peut avoir un intérêt particulier, même financier ou affectif.
-	- Le PGI ne fait pas partie du cahier des charges fonctionnel, mais il constitue une partie importante des besoins de documentation préliminaire. Il va aider à identifier les intervenants qui pourraient souhaiter voir le cahier des charges mais que vous n'auriez pas envisagés autrement.
-	- Comprendre les liens entre certains besoins du projet et les facteurs de motivation de vos intervenants peut aider à prioriser le développement de certains besoins par rapport à d'autres lorsque l'occasion le permet, contribuant ainsi à la satisfaction et à l'enthousiasme des intervenants à l'égard du projet.
+	- Le PGI ne fait pas partie du cahier des charges fonctionnel, mais il constitue une partie importante des besoins de documentation préliminaire. Il va aider à identifier les intervenants qui pourraient souhaiter voir le cahier des charges mais que l'on n'aurait pas envisagés autrement.
+	- Comprendre les liens entre certains besoins du projet et les facteurs de motivation des intervenants peut aider à prioriser le développement de certains besoins par rapport à d'autres lorsque l'occasion le permet, contribuant ainsi à la satisfaction et à l'enthousiasme des intervenants à l'égard du projet.
 
 - Les avantages d'un PGI :
 	- La perspicacité des intervenants peut aider à façonner un projet et propulser vers le succès. Il est important de savoir qui sont ces intervenants afin de ne pas perdre de temps à communiquer et à essayer de travailler avec des gens qui n'ont pas besoin d'être informés de l'avancement du projet. En outre, les intervenants les plus influents peuvent aider à lever les obstacles, à localiser et à obtenir les ressources nécessaires, et même à lever des contraintes. Il est souvent essentiel pour la réussite d'un projet de veiller à ce que ces intervenants soient satisfaits.
@@ -460,7 +459,7 @@
 
 - Le PGI est un document distinct qui n'est pas nécessairement lié au cahier des charges fonctionnel, mais qui est essentiel au début de tout projet.
 
-- Un bon PGI peut vous aider à prioriser certains besoins par rapport à d'autres si nécessaire, ce qui mène à une plus grande satisfaction des intervenants.
+- Un bon PGI peut aider à prioriser certains besoins par rapport à d'autres si nécessaire, ce qui mène à une plus grande satisfaction des intervenants.
 
 ---
 
@@ -475,7 +474,7 @@
 	1. Quel sera l'objectif ? 
 		- 1er sprint = Le cahier des charges fonctionnel pour le client afin de faire une proposition du projet.
 	2. À quoi ressemblera le livrable ?
-		- Répondre à cette question vous aidera à définir le backlog, qui est la liste des tâches qui doivent être accomplies pendant le sprint pour atteindre le but du sprint.
+		- Répondre à cette question aidera à définir le backlog, qui est la liste des tâches qui doivent être accomplies pendant le sprint pour atteindre le but du sprint.
 			- Document CDCF :
 				- Envoyé pour révision par le lient? : juste le document
 				- Présenté au client? : document + diapositives de présentation
@@ -490,12 +489,12 @@
 	6. Quand en a-t-on besoin ?
 		- Cette dernière question fixe la date limite pour le sprint.
 		- Les délais de sprint sont des jalons à court terme pour le projet et aident à faire avancer le projet à un rythme efficace.
-		- La planification de vos sprints de documentation n'a pas besoin d'être difficile, mais elle doit être minutieuse.
+		- La planification des sprints de documentation n'a pas besoin d'être difficile, mais elle doit être minutieuse.
 
 - Exemple de CDCF: https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/6398026/Exemple+de+cahier+des+charges.pdf
 
 ### 3.2 Gérer le "Scope Creep" (Dérive des objectifs)
-- Découvrez la dérive des objectifs :
+- Découvrir la dérive des objectifs :
 	- Nouvelle demande du client en cours de développeent : 
 		- «Pourrions-nous changer la caractéristique X pour qu'elle fasse le comportement Z au lieu du comportement Y ?»
 		- « Peut-on ajouter la fonction A ? »
@@ -504,7 +503,7 @@
 	- Les changements et les ajouts s'accumulent et commencent à affecter d'autres aspects du projet qui sont déjà terminés, et ils doivent maintenant être refaits...
 	- Petites demandes, de minuscules ajustements, qui deviennent graduellement de plus en plus grands.
 
-- Appréhendez le risque de la dérive des objectifs dans un projet agile :
+- Appréhender le risque de la dérive des objectifs dans un projet agile :
 	- Les documents agiles, de par leur nature, sont plus fluides et sont destinés à être facilement modifiés. Ce sont des documents vivants.
 	- La tentation avec de tels documents est d'accepter facilement des changements sans tenir dûment compte de leurs implications.
 	- L’implication naturelle du client dans un projet agile peut également poser un problème : 
@@ -516,15 +515,15 @@
 		- Une bonne planification de projet est essentielle à la réussite de tout projet.
 	- Une bonne planification de la documentation est essentielle à la réussite de tout projet.
 
-- Atténuez le risque de dérive des objectifs :
+- Atténuer le risque de dérive des objectifs :
 	- Besoin d'un plan pour faire face aux dérives quand elles se produisent.
 	- Cahier des charges fonctionnel :
-		- Fondement de votre relation et du projet.
+		- Fondement de la relation et du projet.
 		- Doit définir clairement les besoins commerciaux, les livrables attendus et les critères de réussite de ceux-ci.
 	- Documenter le plan de gestion des intervenants :
 		- Le PGI donnera un aperçu supplémentaire de la gestion de la relation avec le client et, lorsqu'il est associé au cahier des charges fonctionnel, il  peut fournir une protection supplémentaire contre la dérive des objectifs.
 	- Documenter un plan de traitement des demandes de modification et de fonctions supplémentaires
-		- Avant d'accepter tout changement par rapport à la portée initiale, effectuer des recherches approfondies, documenter le changement et ses implications pour le reste du projet, et présenter vos conclusions au client pour validation.
+		- Avant d'accepter tout changement par rapport à la portée initiale, effectuer des recherches approfondies, documenter le changement et ses implications pour le reste du projet, et présenter les conclusions au client pour validation.
 
 - La dérive des objectifs : 
 	- Commence par de petites demandes, mais peut finalement s'avérer désastreux pour un projet.
@@ -536,12 +535,12 @@
 	- Les meilleurs outils pour atténuer le risque de dérive sont un cahier des charges fonctionnel efficace et un plan de gestion des intervenants bien préparé.	
 	
 ### 3.3 Utiliser des modèles pour la documentation
-- Obtenez cohérence, clarté et efficacité grâce à un bon modèle de document :
+- Obtenir cohérence, clarté et efficacité grâce à un bon modèle de document :
 	- **La cohérence des documents** : tous les documents d'un type particulier provenant de l'entreprise suivront le même modèle et seront facilement reconnaissables.
 	- **Une efficacité accrue** : en éliminant le temps consacré au formatage des documents et au contenu commun, le temps consacré à un document particulier est limité aux données propres au client.
 	- **Une clarté accrue** : tous les documents utilisent le même contenu commun et un langage commun, ainsi qu'un format uniforme, ce qui améliore la clarté du contenu pour le lecteur.  
 
-- Trouvez de « bons » modèles :
+- Trouver de « bons » modèles :
 	- Gratuits : De nombreux modèles en ligne peuvent être téléchargés, utilisés et modifiés gratuitement.. Trouver des modèles individuels peut prendre beaucoup de temps, mais c'est souvent une option préférable pour les particuliers ou les petites entreprises ayant un budget serré.
 	- Payants : Un bon logiciel de création de modèles peut représenter une importante économie de coûts. La plupart de ces formules sont disponibles par abonnement et par utilisateur. Les frais d'abonnement sont généralement raisonnables et sont largement compensés par les économies réalisées grâce à l'utilisation du logiciel et des modèles associés.
 - Modèles de documents individuels
