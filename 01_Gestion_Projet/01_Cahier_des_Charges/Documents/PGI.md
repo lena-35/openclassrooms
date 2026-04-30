@@ -1,53 +1,48 @@
 # 👥 Plan de gestion des intervenants (pgi)
 
-**Projet :** [nom du projet]  
-**Responsable :** [ton nom]  
-**Version :** 1.0  
-**Date :** 02/04/2026
+Document distinct visant à maintenir et renforcer les relations avec les parties prenantes.
 
 ---
 
-## 1. Cartographie des parties prenantes (stakeholders)
-*Analyse de l'intérêt et de l'influence de chaque acteur pour adapter la communication.*
+**Projet :** Modernisation du système d'analyse des ventes et démographie
 
-| Intervenant | Rôle / fonction | Intérêt (1-5) | Influence (1-5) | Stratégie |
+**Version :** 1.0 (Méthodologie Agile : document vivant)
+
+**Cible :** Équipe de projet, Product Owner, Client
+
+**Statut :** Document de référence préliminaire
+
+**Référent :** Scrum Master (ou Chef de Projet)
+
+**Date : ** xx/xx/xxxx
+
+---
+
+## 1. Cartographie des parties prenantes (Stakeholders)
+| Intervenant | Rôle | Intérêt | Influence | Stratégie |
 | :--- | :--- | :---: | :---: | :--- |
-| **Le mentor** | Validateur technique | 5 | 5 | **Gérer de près** (validation technique). |
-| **Chef de projet** | Pilotage & planning | 4 | 5 | **Satisfaire** (respect des délais). |
-| **Expert métier** | Référent données | 5 | 3 | **Informer** (qualité des data). |
-| **Utilisateurs** | Bénéficiaires finaux | 3 | 2 | **Surveiller** (adéquation besoin). |
+| **Product Owner** | Vision produit | 5 | 5 | **Gérer de près** (priorités métier). |
+| **Architecte Logiciel** | Structure technique | 4 | 5 | **Satisfaire** (respect contraintes). |
+| **Lead Dev / Devs** | Réalisation | 5 | 4 | **Informer** (clarté des specs). |
+| **Utilisateurs finaux** | Bénéficiaires | 3 | 2 | **Surveiller** (feedback utilisateur). |
 
----
+## 2. Matrice des responsabilités (RACI)
+* **R** : Responsable (fait) | **A** : Approbateur (valide) | **C** : Consulté | **I** : Informé
 
-## 2. Matrice des responsabilités (raci)
-*Définition précise des rôles pour chaque grande étape du projet.*
-* **R** (responsible) : réalise la tâche.  
-* **A** (accountable) : valide la tâche (un seul par ligne).  
-* **C** (consulted) : apporte son expertise.  
-* **I** (informed) : reçoit l'information.
-
-| Tâches / jalons | Toi (data architect) | Chef de projet | Mentor | Expert métier |
+| Tâches / Jalons | Architecte | Product Owner | Lead Dev | Scrum Master |
 | :--- | :---: | :---: | :---: | :---: |
-| **Cadrage & cahier des charges** | **R** | **C** | **A** | **I** |
-| **Accès & ingestion (etl)** | **R** | **I** | **C** | **A** |
-| **Modélisation & analyse (eda)** | **R** | **I** | **A** | **C** |
-| **Visualisation (dashboard)** | **R** | **A** | **C** | **C** |
-| **Livraison & soutenance** | **R** | **C** | **A** | **I** |
-
----
+| **Cadrage & CDCF** | **C** | **A** | **R** | **I** |
+| **Architecture & RDCR** | **R** | **I** | **C** | **A** |
+| **Développement** | **C** | **I** | **A** | **R** (process) |
+| **Livraison & Démo** | **I** | **A** | **R** | **C** |
 
 ## 3. Plan de communication
-*Organisation des échanges pour garantir la transparence du projet.*
-
-| Type de point | Fréquence | Participants | Support / canal |
+| Type de point | Fréquence | Participants | Support |
 | :--- | :--- | :--- | :--- |
-| **Comité de suivi (cosu)** | Hebdomadaire | Toi + cdp | Visioconférence (teams/meet) |
-| **Revue de sprint** | Toutes les 2 sem. | Toi + mentor | Démo sur github / streamlit |
-| **Flash report** | Chaque vendredi | Tous | Email court (fait/à faire/risques) |
-| **Urgent / bloquant** | Ad hoc | Selon besoin | Slack / discord / teams |
-
----
+| **Daily Stand-up** | Quotidien | Équipe technique | Slack / Teams |
+| **Revue de Sprint** | Toutes les 2 sem. | Équipe + PO + Client | Démo Live / Vidéo |
+| **Flash Report** | Hebdomadaire | Tous | Email (Fait / À faire) |
 
 ## 4. Gestion des conflits et escalade
-* En cas de désaccord technique entre l'expert métier et la faisabilité data, l'arbitrage est rendu par le **mentor**.
-* En cas de retard de livraison d'une dépendance externe, l'alerte est remontée au **chef de projet** via le registre des risques.
+* En cas de désaccord fonctionnel, l'arbitrage est rendu par le **Product Owner**.
+* En cas d'obstacle technique bloquant, l'alerte est remontée au **Scrum Master** pour résolution.
