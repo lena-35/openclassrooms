@@ -631,10 +631,16 @@ Rédiger un court bilan synthétique (5 à 10 lignes) destiné au conseil d'admi
 
 ---
 
-## 💡 Mes Réflexions "Data Architect"
-- 
-- 
+##💡 Mes Réflexions "Data Architect"
+- **L'importance de la décomposition** : Je réalise que si le WBS est mal fait au début, c'est toute la planification (Gantt) qui s'écroule. Un oubli dans les livrables peut doubler le budget à la fin.
 
-## ❓ Points à approfondir / Questions
-- [ ] 
-- [ ]  
+- **La gestion des imprévus** : Le Triangle d'Or (Délai, Coût, Portée) est vraiment l'outil de décision. Si je veux ajouter une action de communication non prévue, je dois accepter que soit le projet finisse plus tard, soit il coûte plus cher.
+
+- **Le rôle du Jalon** : Ce n'est pas juste une date, c'est un vrai levier de motivation pour l'équipe et de réassurance pour la Direction.
+
+##❓ Points à approfondir / Questions
+- [ ] **Arbitrage du Triangle d'Or** : En cas de conflit majeur (ex: gros retard de livraison), comment la Direction choisit-elle entre augmenter le budget ou réduire la qualité du projet ?
+
+- [ ] **Facteur Humain** : Le cours parle beaucoup d'outils (Gantt, WBS), mais comment gère-t-on concrètement un membre de l'équipe qui n'adhère pas du tout au projet ?
+
+- [ ] **Outils collaboratifs** : Quel est le meilleur outil (en dehors de Kanban) pour suivre les indicateurs de succès (KPIs) en temps réel avec une équipe à distance ?
