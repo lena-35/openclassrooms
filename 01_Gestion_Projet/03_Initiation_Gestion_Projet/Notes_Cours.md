@@ -4,7 +4,7 @@
 
 > **Début du cours :** 29/04/2026
 
-> **Fin du cours :** xx/xx/2026
+> **Fin du cours :** 30/04/2026
 
 ---
 
