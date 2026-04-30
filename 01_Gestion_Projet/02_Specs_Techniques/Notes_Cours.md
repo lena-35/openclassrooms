@@ -35,7 +35,7 @@ Adopter le rôle d'enquêteur pour comprendre le "**pourquoi**" du projet:
 	<br>2- Les contraintes (temps, budget, technologies existantes),
 	<br>3- Et les utilisateurs cibles.
 - **Identifier les besoins exprimés et implicites** :
-	- Les besoins exprimés sont ceux que le client vous a clairement demandés (« Nous voulons pouvoir assigner des tâches »).
+	- Les besoins exprimés sont ceux que le client nous a clairement demandés (« Nous voulons pouvoir assigner des tâches »).
 	- Les besoins implicites sont ceux que le client n'a pas formulés, mais qui sont nécessaires au bon fonctionnement de l'application (« Si je crée une tâche, je dois pouvoir la modifier ou la supprimer »).
 	> Souvent, les besoins implicites sont découverts en se posant des questions sur le flux de travail réel de l'utilisateur.
 - **Recueillir les informations concrètes** en utilisant des **outils de recueil** :
@@ -44,7 +44,7 @@ Adopter le rôle d'enquêteur pour comprendre le "**pourquoi**" du projet:
 - Les **questionnaires** peuvent être utiles pour valider des hypothèses à grande échelle.
 - L'utilisation de **User Stories** (Histoires Utilisateur) est une approche particulièrement efficace dans la démarche Agile. Une User Story capture un besoin du point de vue de l'utilisateur final et constitue une excellente base pour la formalisation des exigences.
 > Dans la méthodologie Agile, très courante dans le développement logiciel moderne, une User Story est une description simple et concise d'une fonctionnalité vue par l'utilisateur. Elle suit souvent le format : « En tant que [rôle], je veux [objectif], afin de [bénéfice] ». Cela permet de garder l'accent sur la valeur ajoutée pour l'utilisateur, ici les équipes techniques de la start-up.
-- En adoptant une approche opérationnelle et pragmatique, on s'assurez de ne pas simplifier à l'extrême, mais plutôt de faciliter la compréhension des besoins réels des équipes techniques.
+- En adoptant une approche opérationnelle et pragmatique, on s'assure de ne pas simplifier à l'extrême, mais plutôt de faciliter la compréhension des besoins réels des équipes techniques.
 
 #### 1.1.2 Formaliser les exigences fonctionnelles et non fonctionnelles :
 Une fois les besoins bruts identifiés, il est impératif de les transformer en exigences formelles:
@@ -58,7 +58,7 @@ Une fois les besoins bruts identifiés, il est impératif de les transformer en 
 	- **Les exigences non fonctionnelles** décrivent comment le système doit fonctionner ou les contraintes qui pèsent sur lui. Elles peuvent concerner la performance, la sécurité, l'ergonomie, ou la maintenabilité (le "comment bien").
 - Exemple: 
 	- Le client exige que l'application de gestion de tâches soit « rapide ». Cette exigence est floue. Le travail consiste à la décomposer. Si elle est rapide, cela pourrait signifier : « Le temps de chargement de la liste des tâches ne doit jamais excéder 2 secondes, même avec 100 tâches actives. » Le premier est un souhait, le second est une exigence non fonctionnelle mesurable.
-	> Éviter absolument de formuler une exigence fonctionnelle comme ceci : « L'utilisateur pourra gérer ses tâches. » Cette phrase est trop vague. Une formulation précise serait : « En tant qu’utilisateur, je peux consulter la liste de toutes mes tâches en cours, triées par date d'échéance. » La clarté est votre meilleure alliée pour éviter les malentendus coûteux.
+	> Éviter absolument de formuler une exigence fonctionnelle comme ceci : « L'utilisateur pourra gérer ses tâches. » Cette phrase est trop vague. Une formulation précise serait : « En tant qu’utilisateur, je peux consulter la liste de toutes mes tâches en cours, triées par date d'échéance. » La clarté est la meilleure alliée pour éviter les malentendus coûteux.
 	- Adopter cette rigueur dans la formalisation garantit que les équipes techniques de la start-up comprennent exactement la portée du travail à réaliser et pourront livrer un produit qui répond réellement aux attentes métier.
 
 #### 1.1.3 Définir les critères dʼacceptation :
@@ -132,7 +132,7 @@ Une fois les besoins bruts identifiés, il est impératif de les transformer en 
 #### 1.2.2 Structurer le document de spécifications :
 - Organiser l’information de manière logique et exhaustive.
 > Ce document est la référence principale pour l'équipe de développement. Il doit être structuré de façon à ce que tout développeur puisse comprendre rapidement l'objectif général, puis se plonger dans les détails d'implémentation de chaque module.
-- Pour que votre document soit un guide efficace, il faut inclure trois axes essentiels :
+- Pour que le document soit un guide efficace, il faut inclure trois axes essentiels :
 ![Modèle de developpement projet](images/Specifications_techniques.png)	
 
 	**1- Présenter le contexte, les objectifs et le périmètre du projet** :
@@ -202,7 +202,7 @@ Une fois les besoins bruts identifiés, il est impératif de les transformer en 
 
 	Cette traduction rigoureuse évite l'ambiguïté et fournit à l'équipe technique des blocs de travail précis, appelés tâches techniques, pour la mise en œuvre de chaque exigence métier.
 
-#### 1.2.5 Intégrez la qualité, la maintenabilité et l’évolutivité
+#### 1.2.5 Intégrer la qualité, la maintenabilité et l’évolutivité
 - Un logiciel réussi pour ne se définit pas seulement par sa capacité à créer et assigner des tâches. Il se définit également par sa **qualité** et sa **maintenabilité**. Si le code est illisible, incohérent, ou manque de documentation, les futures modifications engendreront inévitablement des malentendus coûteux et des goulots d'étranglement.
 
 - Les spécifications techniques doivent donc aller au-delà de la simple description fonctionnelle pour imposer des critères de qualité qui guideront les pratiques de codage de l’équipe :
@@ -215,7 +215,7 @@ Une fois les besoins bruts identifiés, il est impératif de les transformer en 
 	- Les conventions de nommage pour les classes, les fonctions et les variables (par exemple,update_task_statusplutôt quefunc1_mod_stat). Ces choix doivent être consignés dans les spécifications pour assurer une cohérence d'ensemble.
 
 	**2- Anticiper les tests dès la phase de spécification**
-	<br>Dans le chapitre précédent, vous avez défini des critères d'acceptation (ex: « Le formulaire valide et enregistre la tâche en moins de 3 secondes »). Ces critères sont la base des tests fonctionnels. Cependant, les spécifications techniques doivent anticiper les tests unitaires.
+	<br>Dans le chapitre précédent, on a défini des critères d'acceptation (ex: « Le formulaire valide et enregistre la tâche en moins de 3 secondes »). Ces critères sont la base des tests fonctionnels. Cependant, les spécifications techniques doivent anticiper les tests unitaires.
 	> Lorsque l'on rédige le pseudocode ou décrit une fonction, il faut se poser la question : "Comment tester ce petit morceau de code de manière isolée ?". Si une fonction est trop complexe (trop de responsabilités), elle est difficile à tester. Les spécifications techniques doivent favoriser une décomposition qui rend les tests unitaires simples et rapides. Par exemple, la vérification des permissions devrait être une fonction testable indépendamment de la mise à jour de la base de données.
 
 	**3- Documenter les dépendances logicielles et versions utilisées**
@@ -241,7 +241,7 @@ Une fois les besoins bruts identifiés, il est impératif de les transformer en 
 - Structurer la partie technique du document de spécifications pour la fonctionnalité "Modification du statut d'une tâche". 
 - L'objectif est de guider les développeurs sur le processus d'implémentation :
 	<br>1- **Décrire le flux de données** et les interactions entre au moins deux composants logiciels (par exemple, l'Interface utilisateur (UI), un Service, et la Base de données (DB)).
-	<br>2- **Fournir un exemple de pseudocode synthétique** pour la fonction principale de mise à jour du statut, en respectant une norme de nommage cohérente (utilisez le snake_case pour cette démonstration, comme norme de codage). Le pseudocode doit illustrer les étapes de validation et d'appel à la couche de persistance.
+	<br>2- **Fournir un exemple de pseudocode synthétique** pour la fonction principale de mise à jour du statut, en respectant une norme de nommage cohérente (utiliser le snake_case pour cette démonstration, comme norme de codage). Le pseudocode doit illustrer les étapes de validation et d'appel à la couche de persistance.
 
 	![Modèle de developpement projet](images/Corrige_exercice_1-2.png)	
 
@@ -272,7 +272,7 @@ Avant de commencer le codage, il est essentiel de procéder à une validation ri
 #### 1.3.2 Gérer les modifications et les versions
 Une fois le développement lancé, il est primordial d’avoir une méthode stricte pour gérer **les modifications et les versions** du document de spécifications via deux piliers :
 - **La gestion de version**
-<br> Utilisez des outils comme **Git** ou des systèmes intégrés pour suivre les **modifications**. C'est vital pour que l'équipe travaille toujours sur la version de référence actuelle.
+<br> Utiliser des outils comme **Git** ou des systèmes intégrés pour suivre les **modifications**. C'est vital pour que l'équipe travaille toujours sur la version de référence actuelle.
 >La documentation vivante : Ne jamais laisser la documentation devenir obsolète. Si une exigence change lors d'une réunion avec le client, cette modification doit être immédiatement répercutée dans les User Stories, les critères d'acceptation et les spécifications techniques, puis communiquée aux équipes. Le prix à payer est le risque de malentendus coûteux.
 - **Le Journal des modifications (Changelog)**
 <br> Outil pragmatique pour saisir l’historique des évolutions. Un bon Changelog inclut :
@@ -322,7 +322,7 @@ L'adaptation à la méthodologie Agile encourage un niveau de spécification suf
 	- Les **développeurs** s'assurent que les normes de code (snake_case, camelCase) sont respectées et documentées,
 	- L'équipe **QA** utilise les critères d'acceptation Gherkin pour créer des tests de validation.
 
-	Cette boucle de rétroaction constante garantit que le document de spécifications est non seulement cohérent, mais qu'il reflète fidèlement l'état réel et l'évolution du produit développé par TechFlow Solutions. En maintenant ces standards, vous assurez la robustesse et l'évolutivité de l'application à long terme.
+	Cette boucle de rétroaction constante garantit que le document de spécifications est non seulement cohérent, mais qu'il reflète fidèlement l'état réel et l'évolution du produit développé par TechFlow Solutions. En maintenant ces standards, on assure la robustesse et l'évolutivité de l'application à long terme.
 
 ---
 
