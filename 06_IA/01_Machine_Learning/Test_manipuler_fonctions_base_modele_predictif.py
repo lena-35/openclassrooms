@@ -104,8 +104,8 @@ sns.boxplot(y=score)  # 'y=score' pour un boxplot vertical plus lisible
 plt.title(f"Distribution des scores R2 (test_size={test_size})")
 
 # Remplacez plt.show() par ces deux lignes :
-plt.savefig("./Images/Boxplot_resultat.png") 
-print("\nGraphique sauvegardé avec succès dans 'Images/Boxplot_resultat.png'")
+plt.savefig("./TestImages/Boxplot_resultat.png") 
+print("\nGraphique sauvegardé avec succès dans 'TestImages/Boxplot_resultat.png'")
 
 ##############
 # Question 5 #
@@ -257,5 +257,5 @@ plt.figure()
 plt.plot(range(2, 11, 1), scores)
 
 # Sauvegarde de l'image
-plt.savefig("./Images/Silhouette_resultat.png") 
-print("\nGraphique sauvegardé avec succès dans 'Images/Silhouette_resultat.png'")
+plt.savefig("./TestImages/Silhouette_resultat.png") 
+print("\nGraphique sauvegardé avec succès dans 'TestImages/Silhouette_resultat.png'")
