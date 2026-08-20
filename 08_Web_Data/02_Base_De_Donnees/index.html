@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Foodly</title>
+</head>
+<body>
+    <h1>Liste des Aliments Foodly</h1>
+    
+    <!-- Liste vide remplie par le JavaScript -->
+    <ul id="liste-aliments"></ul>
+
+    <script>
+        // Le navigateur appelle l'API C# locale
+        fetch('http://localhost:5256/api/aliment')
+            .then(response => response.json())
+            .then(aliments => {
+                const ul = document.getElementById('liste-aliments');
+                
+                aliments.forEach(aliment => {
+                    const li = document.createElement('li');
+                    li.textContent = `${aliment.nom} - ${aliment.calories} kcal`;
+                    ul.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Erreur de chargement :', error));
+    </script>
+</body>
+</html>
